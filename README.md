@@ -133,7 +133,7 @@ git config --global merge.ff true
 
 You don't any commit directly to `main` branch. That's totally forbidden and risky. You have to create a new branch for every new feature. Once you are done with your feature, you can merge your branch to `main` branch. You can delete your branch after merging.
 
-- view all branches
+- view all branches: 
 
 ```bash
 git branch -a
@@ -145,19 +145,19 @@ git branch -a
 git checkout -b <branch-name>
 ```
 
-- Switch to a branch
+- Switch to a branch: 
 
 ```bash
 git checkout <branch-name>
 ```
 
-- Delete a branch
+- Delete a branch:
 
 ```bash
 git branch -d <branch-name> # delete local branch
 ```
 
-- Push a branch to remote
+- Push a branch to remote:
 
 ```bash
 git push origin <branch-name>
